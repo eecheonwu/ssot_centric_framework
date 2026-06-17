@@ -81,7 +81,7 @@ project-root/
 ├── tests/
 │   └── Test artefacts
 │
-└── priority_of_truth.md
+└── priority.md
     └── AI agent implementation instructions
 ```
 
