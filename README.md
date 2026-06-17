@@ -73,7 +73,7 @@ project-root/
 │   └── SSOT-derived implementation strategy
 │
 ├── task_plan/
-│   └── SRD and TDD-derived execution tasks
+│   └── SRD and TDD-derived execution tasks or from ssot-derived implementation plan
 │
 ├── src/
 │   └── Application source code
