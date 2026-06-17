@@ -43,6 +43,7 @@ Engineering Artefacts
 
           Task Plan
    (Execution implementation tasks)
+(can also be generated from SRD + TDD )
 
                 |
                 v
@@ -63,25 +64,25 @@ Engineering Artefacts
 # Repository Structure
 
 ``` text
-project-root/
+ssot_centric_framework/
 
-├── knowledge/
-│   └── System knowledge and architectural truth
-│
-├── implementation_plan/
-│   └── SSOT-derived implementation strategy
-│
-├── task_plan/
-│   └── SRD and TDD-derived execution tasks
-│
-├── src/
-│   └── Application source code
-│
-├── tests/
-│   └── Test artefacts
-│
-└── priority_of_truth.md
-    └── AI agent implementation instructions
+        ├── knowledge/
+        │   └── SSOT containing System knowledge and architectural truth
+        │
+        ├── implementation_plan/
+        │   └── SSOT-derived implementation strategy
+        │
+        ├── task_plan/
+        │   └── SRD and TDD-derived execution tasks or from ssot-derived implementation plan
+        │
+        ├── src/
+        │   └── Application source code
+        │
+        ├── tests/
+        │   └── Test artefacts
+        │
+        └── priority.md
+            └── AI agent implementation instructions
 ```
 
 # Directory Responsibilities
