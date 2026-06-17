@@ -15,17 +15,14 @@ and future system changes.
 
 The framework separates:
 
-- SSOT: System understanding and architectural truth
-
-- Implementation Plan: Architecture-driven implementation strategy
-
-- Task Plan: Execution-level engineering activities
-
-- Source Code and Tests: Software implementation and validation
+-   SSOT: System understanding and architectural truth
+-   Implementation Plan: Architecture-driven implementation strategy
+-   Task Plan: Execution-level engineering activities
+-   Source Code and Tests: Software implementation and validation
 
 ## Lifecycle
 
-```text
+``` text
 Engineering Artefacts
 (SRD, TDD, ADRs, C4, Technical Evaluation)
 
@@ -33,7 +30,6 @@ Engineering Artefacts
                 v
 
               SSOT
-           (knowledge)
 
                 |
                 v
@@ -65,10 +61,10 @@ Engineering Artefacts
 
 # Repository Structure
 
-```text
+``` text
 project-root/
 
-├── knowledge/
+├── ssot/
 │   └── System knowledge and architectural truth
 │
 ├── implementation_plan/
@@ -89,75 +85,57 @@ project-root/
 
 # Directory Responsibilities
 
-## knowledge/
+## ssot/
 
 Contains the authoritative representation of the system.
 
 Generated from:
 
-- Software Requirements Document (SRD)
-
-- Technical Design Document (TDD)
-
-- Architecture Decision Records (ADRs)
-
-- C4 diagrams
-
-- Technical analysis
-
-- Existing repository context
+-   Software Requirements Document (SRD)
+-   Technical Design Document (TDD)
+-   Architecture Decision Records (ADRs)
+-   C4 diagrams
+-   Technical analysis
+-   Existing repository context
 
 The SSOT maintains:
 
-- Product knowledge
+-   Product knowledge
+-   Architecture knowledge
+-   System behaviour
+-   Engineering constraints
+-   Security knowledge
+-   Testing strategy
 
-- Architecture knowledge
-
-- System behaviour
-
-- Engineering constraints
-
-- Security knowledge
-
-- Testing strategy
-
-## implementation\_plan/
+## implementation_plan/
 
 The implementation plan is derived from the SSOT.
 
 It defines:
 
-- Architectural implementation strategy
-
-- Development sequence
-
-- Component evolution
-
-- Dependencies
-
-- Technical constraints
+-   Architectural implementation strategy
+-   Development sequence
+-   Component evolution
+-   Dependencies
+-   Technical constraints
 
 It answers:
 
 > How should the system be built while preserving architectural intent?
 
-## task\_plan/
+## task_plan/
 
 The task plan is derived from:
 
-- SRD
-
-- TDD
+-   SRD
+-   TDD
 
 It defines:
 
-- Coding tasks
-
-- File changes
-
-- Implementation steps
-
-- Validation requirements
+-   Coding tasks
+-   File changes
+-   Implementation steps
+-   Validation requirements
 
 It answers:
 
@@ -169,50 +147,42 @@ Contains the software implementation.
 
 All changes must comply with:
 
-- SSOT rules
-
-- Implementation Plan
-
-- Task Plan
+-   SSOT rules
+-   Implementation Plan
+-   Task Plan
 
 ## tests/
 
 Contains:
 
-- Unit tests
-
-- Integration tests
-
-- End-to-end tests
-
-- Validation artefacts
+-   Unit tests
+-   Integration tests
+-   End-to-end tests
+-   Validation artefacts
 
 # Priority of Truth
 
 AI agents must follow this order:
 
-1. SSOT (knowledge)
-2. Implementation Plan
-3. Task Plan
-4. Existing Source Code
-5. New Implementation Decisions
+1.  SSOT
+2.  Implementation Plan
+3.  Task Plan
+4.  Existing Source Code
+5.  New Implementation Decisions
 
 When conflicts occur:
 
-- SSOT has highest authority.
-
-- Implementation decisions must align with SSOT.
-
-- Task execution must respect architecture.
-
-- Changes affecting system behaviour must update SSOT.
+-   SSOT has highest authority.
+-   Implementation decisions must align with SSOT.
+-   Task execution must respect architecture.
+-   Changes affecting system behaviour must update SSOT.
 
 # AI Coding Agent Context
 
 The AI coding agent receives:
 
-```text
-/knowledge
+``` text
+/ssot
 
 /implementation_plan
 
@@ -223,7 +193,7 @@ priority_of_truth.md
 
 Workflow:
 
-```text
+``` text
 Load System Context
         |
 Review Implementation Strategy
@@ -263,30 +233,20 @@ Defines concrete engineering actions.
 
 The framework provides:
 
-- Better AI agent context awareness
-
-- Reduced architectural drift
-
-- Improved traceability
-
-- More reliable autonomous development
-
-- Continuous system knowledge evolution
+-   Better AI agent context awareness
+-   Reduced architectural drift
+-   Improved traceability
+-   More reliable autonomous development
+-   Continuous system knowledge evolution
 
 # Future AI Agent Extensions
 
 The framework supports specialized agents:
 
-- Requirements Agent
-
-- Architecture Agent
-
-- Implementation Agent
-
-- Testing Agent
-
-- Security Agent
-
-- Deployment Agent
-
-- SSOT Synchronization Agent
+-   Requirements Agent
+-   Architecture Agent
+-   Implementation Agent
+-   Testing Agent
+-   Security Agent
+-   Deployment Agent
+-   SSOT Synchronization Agent
