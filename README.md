@@ -64,7 +64,7 @@ Engineering Artefacts
 # Repository Structure
 
 ``` text
-project-root/
+ssot_centric_framework/
 
 ├── knowledge/
 │   └── SSOT containing System knowledge and architectural truth
