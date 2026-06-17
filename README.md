@@ -30,6 +30,7 @@ Engineering Artefacts
                 v
 
               SSOT
+           (knowledge)
 
                 |
                 v
@@ -64,7 +65,7 @@ Engineering Artefacts
 ``` text
 project-root/
 
-├── ssot/
+├── knowledge/
 │   └── System knowledge and architectural truth
 │
 ├── implementation_plan/
@@ -85,7 +86,7 @@ project-root/
 
 # Directory Responsibilities
 
-## ssot/
+## knowledge/
 
 Contains the authoritative representation of the system.
 
@@ -182,7 +183,7 @@ When conflicts occur:
 The AI coding agent receives:
 
 ``` text
-/ssot
+/knowledge
 
 /implementation_plan
 
