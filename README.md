@@ -67,7 +67,7 @@ Engineering Artefacts
 project-root/
 
 ├── knowledge/
-│   └── System knowledge and architectural truth
+│   └── SSOT containing System knowledge and architectural truth
 │
 ├── implementation_plan/
 │   └── SSOT-derived implementation strategy
