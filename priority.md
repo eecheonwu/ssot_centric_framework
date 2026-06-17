@@ -4,7 +4,7 @@ Use the following priority:\
 \
 1\. SSOT defines system truth.\
 2\. Implementation Plan defines architectural execution strategy.\
-3\. Execution Task Plan defines implementation activities.\
+3\. Task Plan defines implementation execution activities.\
 \
 Before changing code:\
 \- Validate the task against the architecture.\
