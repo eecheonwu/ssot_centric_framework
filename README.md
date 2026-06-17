@@ -194,7 +194,7 @@ The AI coding agent receives:
 
 /task_plan
 
-priority_of_truth.md
+priority.md
 ```
 
 Workflow:
