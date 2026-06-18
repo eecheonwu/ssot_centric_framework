@@ -18,8 +18,6 @@ intelligence layer that maintains alignment between requirements,
 architecture decisions, implementation strategy, source code, testing,
 and future system changes.
 
-This framework is created using the AI-native software Engineering toolkit ( A set of AI agent skills) specially created for Agentic Software Engineering. Download the AI Agent Skills toolkit and place in your agent skills folder for your AI Agent Coder.
-
 The framework separates:
 
 - SSOT: System understanding and architectural truth
@@ -248,7 +246,6 @@ Synchronize SSOT
 # How to Use the SSOT-Centric Agentic Software Engineering Framework
 
 
-
 The SSOT-Centric Agentic Software Engineering Framework is designed to operate as part of an **AI-native Software Engineering Toolkit**.
 
 The framework itself is generated and maintained through the **ssot-orchestrator skill**, which coordinates the creation, synchronization, and evolution of the Single Source of Truth (SSOT) throughout the software engineering lifecycle.
@@ -291,7 +288,7 @@ The generated SSOT becomes the foundation for AI-native development activities.
 
 The SSOT-Centric Framework depends on the **AI-native Software Engineering Toolkit**.
 
-The toolkit provides a collection of specialized engineering skills that can be independently downloaded from [here](\[https://github.com/eecheonwu/AI-native_software_engineering_Agent_toolkit/releases/tag/v1.0.0])  and copied directly into your AI coding agent skills directory.
+The toolkit provides a collection of specialized engineering skills that can be independently downloaded from [https://github.com/eecheonwu/AI-native_software_engineering_Agent_toolkit/releases/tag/v1.0.0]  and copied directly into your AI coding agent skills directory.
 
 Example:
 
