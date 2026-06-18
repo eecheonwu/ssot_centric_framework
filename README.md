@@ -245,11 +245,11 @@ Run Tests
 Synchronize SSOT
 ```
 
-# How to Use the SSOT-Centric Agentic Software Engineering Framework
+# How to create the SSOT-Centric Agentic Software Engineering Framework
 
 The SSOT-Centric Agentic Software Engineering Framework is designed to operate as part of an **AI-native Software Engineering Toolkit**.
 
-The framework itself is generated and maintained through the **ssot-orchestrator skill**, which coordinates the creation, synchronization, and evolution of the Single Source of Truth (SSOT) throughout the software engineering lifecycle.
+The framework itself is generated and maintained through the **ssot-orchestrator skill**, which is part of the  **AI-native Software Engineering Toolkit**, which coordinates the creation, synchronization, and evolution of the Single Source of Truth (SSOT) throughout the software engineering lifecycle.
 
 The framework can be created in two primary scenarios:
 
@@ -318,6 +318,17 @@ Skills Directory
 The `ssot-orchestrator` skill coordinates these capabilities to create and maintain the SSOT.
 
 ***
+
+# Creating Software Artefacts
+
+You can create the software artefacts and plans with the following:
+
+| Skill                         | When to activate                                                                                  |
+| :---------------------------- | :------------------------------------------------------------------------------------------------ |
+| `requirement-engineer`        | Write your initial software project idea and follow the instructions to create the SRD            |
+| `software-architect`          | Enter the instruction to create the Technical Evaluations, ADR, TDD and C4 diagram, in that order |
+| `repo-research`               | Repository discovery                                                                              |
+| `planning-and-task-breakdown` | Implementation and task plans development                                                         |
 
 # Creating an SSOT from Software Artefacts
 
