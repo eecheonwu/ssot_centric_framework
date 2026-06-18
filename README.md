@@ -327,8 +327,11 @@ You can create the software artefacts and plans with the following:
 | :---------------------------- | :------------------------------------------------------------------------------------------------ |
 | `requirement-engineer`        | Write your initial software project idea and follow the instructions to create the SRD            |
 | `software-architect`          | Enter the instruction to create the Technical Evaluations, ADR, TDD and C4 diagram, in that order |
-| `repo-research`               | Repository discovery                                                                              |
+| `repo-research`               | Repository discovery to create codebase context                                                   |
 | `planning-and-task-breakdown` | Implementation and task plans development                                                         |
+|                               |                                                                                                   |
+
+***
 
 # Creating an SSOT from Software Artefacts
 
@@ -619,3 +622,4 @@ The framework supports specialized agents:
 
 - SSOT Synchronization Agent
 
+***
