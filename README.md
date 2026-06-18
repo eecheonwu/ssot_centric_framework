@@ -621,4 +621,7 @@ The framework supports specialized agents:
 
 - SSOT Synchronization Agent
 
+# Citation
+Echeonwu, E. C. (2026). SSOT-Centric Agentic Software Engineering Framework. Zenodo. https://doi.org/10.5281/zenodo.20745818
+
 ***
