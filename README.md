@@ -16,7 +16,7 @@ foundation.
 The framework introduces a Single Source of Truth (SSOT) as the central
 intelligence layer that maintains alignment between requirements,
 architecture decisions, implementation strategy, source code, testing,
-and future system changes. 
+and future system changes.
 
 This framework is created using the AI-native software Engineering toolkit ( A set of AI agent skills) specially created for Agentic Software Engineering. Download the AI Agent Skills toolkit and place in your agent skills folder for your AI Agent Coder.
 
@@ -256,19 +256,31 @@ The framework itself is generated and maintained through the **ssot-orchestrator
 The framework can be created in two primary scenarios:
 
 1. **New Software Projects**
+
    - Using existing software engineering artefacts such as:
+
      - Software Requirements Document (SRD)
+
      - Technical Design Document (TDD)
+
      - Architecture Decision Records (ADRs)
+
      - C4 Architecture Diagrams
+
      - Technical Evaluations
 
 2. **Existing Software Repositories**
+
    - By analyzing an existing codebase and discovering:
+
      - system architecture
+
      - component relationships
+
      - implementation patterns
+
      - technical constraints
+
      - existing behaviours
 
 The generated SSOT becomes the foundation for AI-native development activities.
@@ -357,9 +369,13 @@ Generate the SSOT structure required to support AI-native software development.
 The `ssot-orchestrator` skill will:
 
 - analyse the artefacts
+
 - extract system knowledge
+
 - identify architecture decisions
+
 - organize system context
+
 - create the SSOT structure
 
 ***
@@ -387,10 +403,15 @@ Create the SSOT structure that represents the current system state.
 The AI agent will analyse:
 
 - source code
+
 - project structure
+
 - configuration files
+
 - dependencies
+
 - tests
+
 - documentation
 
 and produce a system knowledge representation.
@@ -460,8 +481,11 @@ The AI agent must follow the priority hierarchy:
 The purpose is to ensure that:
 
 - implementation follows architecture
+
 - tasks do not override system design
+
 - code changes remain aligned with system intent
+
 - knowledge remains synchronized
 
 ***
@@ -491,45 +515,18 @@ SSOT Update
 Changes that affect:
 
 - requirements
+
 - architecture
+
 - behaviour
+
 - interfaces
+
 - security
+
 - deployment
 
 must update the SSOT.
-
-***
-
-# Recommended AI-Native Workflow
-
-A complete lifecycle using this framework:
-
-```mermaid
-flowchart TD
-
-A[Software Artefacts / Existing Repository]
-
-A --> B[ssot-orchestrator Skill]
-
-B --> C[SSOT Creation]
-
-C --> D[Implementation Plan]
-
-D --> E[Execution Task Plan]
-
-E --> F[AI Coding Agent]
-
-F --> G[Source Code]
-
-G --> H[Testing]
-
-H --> I[SSOT Synchronization]
-
-I --> C
-
-
-```
 
 ***
 
@@ -540,15 +537,21 @@ The SSOT-Centric Agentic Software Engineering Framework should be viewed as a ca
 The toolkit provides:
 
 - specialized engineering skills
+
 - domain expertise
+
 - development workflows
+
 - agent coordination capabilities
 
 The SSOT framework provides:
 
 - persistent system knowledge
+
 - architectural memory
+
 - implementation governance
+
 - AI agent context
 
 Together they enable AI agents to operate closer to the behaviour of experienced software engineering teams.
