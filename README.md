@@ -16,7 +16,9 @@ foundation.
 The framework introduces a Single Source of Truth (SSOT) as the central
 intelligence layer that maintains alignment between requirements,
 architecture decisions, implementation strategy, source code, testing,
-and future system changes.
+and future system changes. 
+
+This framework is created using the AI-native software Engineering toolkit ( A set of AI agent skills) specially created for Agentic Software Engineering. Download the AI Agent Skills toolkit and place in your agent skills folder for your AI Agent Coder.
 
 The framework separates:
 
@@ -224,7 +226,7 @@ The AI coding agent receives:
 
 /task_plan
 
-priority_of_truth.md
+priority.md
 ```
 
 Workflow:
