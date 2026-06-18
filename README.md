@@ -5,6 +5,8 @@ Version 1.0\
 Author: Emmanuel Echeonwu\
 First Published: 2026
 
+<https://doi.org/10.5281/zenodo.20744576>
+
 ## Overview
 
 The SSOT-Centric Agentic Software Engineering Framework is an AI-native
@@ -245,7 +247,6 @@ Synchronize SSOT
 
 # How to Use the SSOT-Centric Agentic Software Engineering Framework
 
-
 The SSOT-Centric Agentic Software Engineering Framework is designed to operate as part of an **AI-native Software Engineering Toolkit**.
 
 The framework itself is generated and maintained through the **ssot-orchestrator skill**, which coordinates the creation, synchronization, and evolution of the Single Source of Truth (SSOT) throughout the software engineering lifecycle.
@@ -288,7 +289,7 @@ The generated SSOT becomes the foundation for AI-native development activities.
 
 The SSOT-Centric Framework depends on the **AI-native Software Engineering Toolkit**.
 
-The toolkit provides a collection of specialized engineering skills that can be independently downloaded from [https://github.com/eecheonwu/AI-native_software_engineering_Agent_toolkit/releases/tag/v1.0.0]  and copied directly into your AI coding agent skills directory.
+The toolkit provides a collection of specialized engineering skills that can be independently downloaded from \[<https://github.com/eecheonwu/AI-native_software_engineering_Agent_toolkit/releases/tag/v1.0.0>]  and copied directly into your AI coding agent skills directory.
 
 Example:
 
