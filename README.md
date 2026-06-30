@@ -51,7 +51,7 @@ Engineering Artefacts
 
           Task Plan
    (Execution implementation tasks)
-(can also be generated from SRD + TDD )
+(generated from implementation plan + SSOT) )
 
                 |
                 v
@@ -151,9 +151,9 @@ It answers:
 
 The task plan is derived from:
 
-- SRD
+- Implementation plan
 
-- TDD
+- SSOT
 
 It defines:
 
