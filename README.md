@@ -51,7 +51,7 @@ Engineering Artefacts
 
           Task Plan
    (Execution implementation tasks)
-(generated from implementation plan + SSOT) )
+(generated from implementation plan + SSOT)
 
                 |
                 v
