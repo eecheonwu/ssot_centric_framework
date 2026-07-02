@@ -5,6 +5,18 @@ Author: Emmanuel Echeonwu\
 First Published: 2026\
 https://doi.org/10.5281/zenodo.20745818
 
+---
+
+## 📚 Part of SCSE Research Programme
+
+This repository is a **core implementation project** within the **SSOT-Centric Software Engineering (SCSE)** research programme.
+
+**🔗 [Return to SCSE Central Research Hub](https://github.com/eecheonwu/scse-knowledge-base)** — The authoritative source for all SCSE research concepts, theory, and methodology.
+
+For theoretical foundations and research context, see the [SCSE Research Handbook](https://github.com/eecheonwu/scse-knowledge-base).
+
+---
+
 ## Overview
 
 The SSOT-Centric Agentic Software Engineering Framework is an AI-native
@@ -242,6 +254,7 @@ Run Tests
         |
 Synchronize SSOT
 ```
+
 # Core Principles
 
 ## SSOT as System Memory
@@ -297,6 +310,7 @@ The framework supports specialized agents:
 - SSOT Synchronization Agent
 
 # Citation
+
 Echeonwu, E. C. (2026). SSOT-Centric Agentic Software Engineering Framework. Zenodo. https://doi.org/10.5281/zenodo.20745818
 
 ***
