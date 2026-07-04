@@ -232,9 +232,9 @@ The AI coding agent receives:
 ```text
 /knowledge
 
-/implementation_plan
+implementation_plan.md
 
-/task_plan
+task_plan.md
 
 priority.md
 ```
