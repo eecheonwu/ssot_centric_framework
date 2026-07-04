@@ -139,7 +139,7 @@ The SSOT maintains:
 
 - Testing strategy
 
-## implementation\_plan/
+## implementation\_plan
 
 The implementation plan is derived from the SSOT.
 
@@ -159,7 +159,7 @@ It answers:
 
 > How should the system be built while preserving architectural intent?
 
-## task\_plan/
+## task\_plan
 
 The task plan is derived from:
 
