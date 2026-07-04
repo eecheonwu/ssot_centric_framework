@@ -89,10 +89,10 @@ ssot_centric_framework/
         ├── knowledge/
         │   └── SSOT containing System knowledge and architectural truth
         │
-        ├── implementation_plan/
+        ├── implementation_plan
         │   └── SSOT-derived implementation strategy
         │
-        ├── task_plan/
+        ├── task_plan
         │   └── SRD and TDD-derived execution tasks or from ssot-derived implementation plan
         │
         ├── src/
