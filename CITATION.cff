@@ -3,8 +3,7 @@ title: "SSOT-Centric Agentic Software Engineering Framework"
 authors:
   - family-names: "Echeonwu"
     given-names: "Emmanuel"
-    other names: "Chinyere"
-
+    
 year: 2026
 doi: https://doi.org/10.5281/zenodo.20745818
 version: 1.0
@@ -12,4 +11,4 @@ version: 1.0
 description: >
  A knowledge-governed lifecycle framework for AI-native software engineering.
 
-license: MIT License 
+license: Apache 2.0 License 
