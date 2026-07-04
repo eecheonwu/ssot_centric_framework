@@ -3,7 +3,6 @@
 SSOT-Centric Agentic Software Engineering Framework\
 Author: Emmanuel Echeonwu\
 First Published: 2026\
-https://doi.org/10.5281/zenodo.20745818
 
 ---
 
