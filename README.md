@@ -16,6 +16,12 @@ For theoretical foundations and research context, see the [SCSE Research Handboo
 
 ---
 
+## Framework Overview
+
+![SSOT-Centric Agentic Software Engineering Framework](SSOT_poster.png)
+
+---
+
 ## Overview
 
 The SSOT-Centric Agentic Software Engineering Framework is an AI-native
