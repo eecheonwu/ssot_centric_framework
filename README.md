@@ -2,8 +2,7 @@
 
 SSOT-Centric Agentic Software Engineering Framework\
 Author: Emmanuel Echeonwu\
-First Published: 2026\
-https://doi.org/10.5281/zenodo.20745818
+First Published: 2026
 
 ---
 
@@ -89,10 +88,10 @@ ssot_centric_framework/
         ├── knowledge/
         │   └── SSOT containing System knowledge and architectural truth
         │
-        ├── implementation_plan/
+        ├── implementation_plan
         │   └── SSOT-derived implementation strategy
         │
-        ├── task_plan/
+        ├── task_plan
         │   └── SRD and TDD-derived execution tasks or from ssot-derived implementation plan
         │
         ├── src/
@@ -139,7 +138,7 @@ The SSOT maintains:
 
 - Testing strategy
 
-## implementation\_plan/
+## implementation\_plan
 
 The implementation plan is derived from the SSOT.
 
@@ -159,7 +158,7 @@ It answers:
 
 > How should the system be built while preserving architectural intent?
 
-## task\_plan/
+## task\_plan
 
 The task plan is derived from:
 
@@ -232,9 +231,9 @@ The AI coding agent receives:
 ```text
 /knowledge
 
-/implementation_plan
+implementation_plan.md
 
-/task_plan
+task_plan.md
 
 priority.md
 ```
