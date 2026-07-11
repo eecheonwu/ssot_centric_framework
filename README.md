@@ -106,7 +106,7 @@ ssot_centric_framework/
         ├── tests/
         │   └── Test artefacts
         │
-        └── priority.md
+        └── instructions.md
             └── AI agent implementation instructions
 ```
 
@@ -210,7 +210,7 @@ Contains:
 
 - Validation artefacts
 
-# Priority of Truth
+# instauctions
 
 AI agents must follow this order:
 
@@ -241,7 +241,7 @@ implementation_plan.md
 
 task_plan.md
 
-priority.md
+instructions.md
 ```
 
 Workflow:
