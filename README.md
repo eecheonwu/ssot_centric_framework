@@ -210,7 +210,7 @@ Contains:
 
 - Validation artefacts
 
-# instauctions
+# instructions
 
 AI agents must follow this order:
 
